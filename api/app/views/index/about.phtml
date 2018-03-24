@@ -129,7 +129,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
     data-language="en-GB"    data-inline_async_omit="1">
 <![endif]-->
 <!--[if gt IE 9]><!-->
-    <body class="transitional-wide
+    <body style="background-color:white;"class="transitional-wide
  guest  is-touch is-responsive en-GB is-global-nav
 " data-language="en-GB" data-inline_async_omit="1">
 <!--<![endif]-->
@@ -200,9 +200,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                                 <span class="catnav-browse-btn nav-icon vertical-align-middle child-hover-underline">Browse</span>
                         </div>
                 </button>
-
-               <!--logo,search-->
-            <div class="catnav-search-bar search-browse-wrapper with-catnav">
+                <div class="catnav-search-bar search-browse-wrapper with-catnav">
                     <div class="search-browse-inner">
                         <form id="gnav-search" class="search-nav expanded-search apply-nav-height search-mobile" method="GET" action="/in-en/search.php" facet-path="home-and-living" role="search">
 
@@ -226,8 +224,6 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                             <input type="hidden" value="all" name="search_type" id="search-type">
                         </form>                    </div>
                 </div>
-
-            <!--mobile nav-->
                 <div class="mobile-catnav-wrapper overlay-region position-relative p-xs-0 display-none" id="mobile-catnav-overlay" aria-hidden="true" data-overlay-has-trigger="true"><div data-ui="mobile-cat-nav" class="mobile-cat-nav bg-gray-lighter pb-xs-4 width-full position-fixed animated">
     <div class="bg-white display-flex-md show-md pt-md-4 pl-md-2 pb-md-2">
         <div class="flex-md-5 pl-md-0">
@@ -2031,14 +2027,17 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
 </div>
     </div>
 </div></div>
-
             <a class="apply-nav-height header__skip-to-content screen-reader-only focusable" href="#content">Skip to Content</a>
 
-<!--register,signin,cart-->
+
+
             <ul class="account-nav apply-nav-height">
 
-                    <li class="sign-in-link">
-            <select id="register" rel="nofollow" class="inline-overlay-trigger register-header-action select-register"  Style="margin-top:38%;border:2px; color:#E55400;">Currency
+
+                <li class="sell-on-etsy-link">
+                    <a id="sell-on-etsy" class="sell-on-etsy-trigger" title="">
+                            <span class="sell-copy">
+                                <select id="register" rel="nofollow" Style="border:2px;background-color:white; color:#E55400;">Currency
                 <div style="background-color:black;">
                     <option><p>Currency</p></option>
                 <option style="border:2px;">USD</option>
@@ -2047,6 +2046,20 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                    <option style="border:2px;">EUR</option>
                 </div>
             </select>
+                            </span>
+                        <span class="sell-copy short">
+                                                                <select id="register" rel="nofollow" Style="border:2px; background-color:white;color:#E55400;">Currency
+                <div style="background-color:black;">
+                    <option><p>Currency</p></option>
+                <option style="border:2px;">USD</option>
+                 <option style="border:2px;">INR</option>
+                  <option style="border:2px;">GBP</option>
+                   <option style="border:2px;">EUR</option>
+                </div>
+            </select>
+
+                            </span>
+                    </a>
                 </li>
                     <li class="register-link">
                         <a id="register" class="inline-overlay-trigger register-header-action select-register" rel="nofollow" data-downtime-overlay-type="register" href="/users/signup/" title="Register" role="button">
@@ -3974,9 +3987,9 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-        <h1 class="w3-center"><b><font size="4">About Us</font></b></h1><br>
+        <h1 class="w3-center" ><b><font size="4">About Us</font></b></h1><br>
       
-      <p class="w3-small"><font size="3">Zodhpur is an international brand of traditional products handcrafted to complement your modern living style. These are products that you will use on a daily basis at home; give as a present to your loved ones; use to pep up your workspace, etc. Our products are crafted to add the desired traditionally rustic flavor to your lives, while simultaneously creating modern usability and value. Zodhpur is based out of Mumbai, India, with operations in the Singapore, NZ, Canada, UK and the EU.
+      <p class="w3-small" style="font-family: Calibri; text-align: justify;text-justify: inter-word;"><font size="3" >Zodhpur is an international brand of traditional products handcrafted to complement your modern living style. These are products that you will use on a daily basis at home; give as a present to your loved ones; use to pep up your workspace, etc. Our products are crafted to add the desired traditionally rustic flavor to your lives, while simultaneously creating modern usability and value. Zodhpur is based out of Mumbai, India, with operations in the Singapore, NZ, Canada, UK and the EU.
 
  
 
@@ -4075,180 +4088,171 @@ Zodhpur works with nonprofit and producer-owned artisan organizations in India. 
 </div>
             </div>
 
-        
+
 
         <div class="body-max-width">
-                 <div class="col-group mt-xs-3 mt-md-6 pt-xs-2 pb-lg-4 pt-md-6 text-smaller">
-                        <div class="mb-xs-2 col-offset-sm-1 col-sm-4 col-lg-3">
-                            <h3 class="h5 strong mb-xs-2 text-left">
-                                <font size="4"> Navigation </font>
-                            </h3>
-                            <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/">
-                                                
-                                                <span><font size="3">Home</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/about/">
-                                                
-                                                <span><font size="3">About Us</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/contact/">
-                                                
-                                                <span><font size="3">Contact Us</font></span>
-                                            </a>
-                                        </li>
-                                <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/errorpage/">
-                                                
-                                                <span><font size="3">Blog</font></span>
-                                            </a>
-                                        </li>
-                                <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/faq/">
-                                                
-                                                <span><font size="3">FAQs</font></span>
-                                            </a>
-                                        </li>
-                                <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="errorpage.phtml">
-                                                
-                                                <span><font size="3">Collection</font></span>
-                                            </a>
-                                        </li>
-                            </ul>
-                        </div>
-                        <div class="mb-xs-2 col-sm-4 col-lg-3">
-                            <h3 class="h5 strong mb-xs-2 text-left">
-                               <span><font size="4">Categories</font></span>
-                            </h3>
-                            <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
-                                         <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/wcd/">
-                                                
-                                                <span><font size="3">Women</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="">
-                                                
-                                                <span><font size="3">Clothing & shoes</font></span>
-                                            </a>
-                                        </li>
-                                <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="">
-                                                
-                                                <span><font size="3">Home & living</font></span>
-                                            </a>
-                                        </li>
-                                <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="">
-                                                
-                                                <span><font size="3">Wedding & Party</font></span>
-                                            </a>
-                                        </li>
-                                <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="">
-                                                
-                                                <span><font size="3">Toys & Entertainment</font></span>
-                                            </a>
-                                        </li>
-                                <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="">
-                                                
-                                                <span><font size="3">Art & Collectibles</font></span>
-                                            </a>
-                                        </li>
-                            </ul>
-                        </div>
-                        <div class="mb-xs-2 col-sm-3 col-lg-3">
-                            <h3 class="h5 strong mb-xs-2 text-left">
-                                <font size="4"> Popular</font>
-                            </h3>
-                            <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/trays/">
-                                                
-                                                <span><font size="3">Ash Trays</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/kitchen/">
-                                                
-                                                <span><font size="3">Wooden Toys</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/game/">
-                                                
-                                                <span><font size="3">Chess Board</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/coin/">
-                                                
-                                                <span><font size="3">Coin Box</font></span>
-                                            </a>
-                                        </li>
+            <div class="col-group mt-xs-3 mt-md-6 pt-xs-2 pb-lg-4 pt-md-6 text-smaller">
 
-                            </ul>
-                        </div>
-                        <div class="mb-xs col-lg-2">
-                            <h3 class="h5 strong mb-xs-2 text-left">
-                                <font size="4">Follow Zodhpur </font>
-                            </h3>
-                            <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="https://www.facebook.com">
-                                                <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20,5V19a1.007,1.007,0,0,1-1,1H15V13.776h2l0.336-2.3H15V9.659a0.912,0.912,0,0,1,1-1.031h1.5V6.55a11.284,11.284,0,0,0-1.641-.109c-2.2,0-3.3,1.219-3.3,3.039v1.992h-2v2.3h2V20H5a1.007,1.007,0,0,1-1-1V5A1.007,1.007,0,0,1,5,4H19A1.007,1.007,0,0,1,20,5Z"></path></svg></span>
-                                                <span><font size="3">Facebook</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="https://www.instagram.com">
-                                                <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,5.447c2.136,0,2.389,0.008,3.233,0.047c0.78,0.036,1.204,0.166,1.485,0.275c0.373,0.145,0.64,0.318,0.92,0.598 c0.28,0.28,0.453,0.546,0.598,0.92c0.11,0.282,0.24,0.706,0.275,1.485c0.038,0.844,0.047,1.097,0.047,3.233 s-0.008,2.389-0.047,3.233c-0.036,0.78-0.166,1.204-0.275,1.485c-0.145,0.373-0.318,0.64-0.598,0.92 c-0.28,0.28-0.546,0.453-0.92,0.598c-0.282,0.11-0.706,0.24-1.485,0.275c-0.843,0.038-1.096,0.047-3.233,0.047 s-2.389-0.008-3.233-0.047c-0.78-0.036-1.204-0.166-1.485-0.275c-0.373-0.145-0.64-0.318-0.92-0.598 c-0.28-0.28-0.453-0.546-0.598-0.92c-0.11-0.282-0.24-0.706-0.275-1.485c-0.038-0.844-0.047-1.097-0.047-3.233 S5.45,9.616,5.488,8.773c0.036-0.78,0.166-1.204,0.275-1.485c0.145-0.373,0.318-0.64,0.598-0.92c0.28-0.28,0.546-0.453,0.92-0.598 c0.282-0.11,0.706-0.24,1.485-0.275C9.611,5.455,9.864,5.447,12,5.447 M12,4.005c-2.173,0-2.445,0.009-3.298,0.048 C7.85,4.092,7.269,4.227,6.76,4.425C6.234,4.63,5.787,4.903,5.343,5.348C4.898,5.793,4.624,6.239,4.42,6.765 c-0.198,0.509-0.333,1.09-0.372,1.942C4.009,9.56,4,9.833,4,12.005c0,2.173,0.009,2.445,0.048,3.298 c0.039,0.852,0.174,1.433,0.372,1.942c0.204,0.526,0.478,0.972,0.923,1.417c0.445,0.445,0.891,0.718,1.417,0.923 c0.509,0.198,1.09,0.333,1.942,0.372c0.853,0.039,1.126,0.048,3.298,0.048s2.445-0.009,3.298-0.048 c0.852-0.039,1.433-0.174,1.942-0.372c0.526-0.204,0.972-0.478,1.417-0.923c0.445-0.445,0.718-0.891,0.923-1.417 c0.198-0.509,0.333-1.09,0.372-1.942C19.991,14.45,20,14.178,20,12.005s-0.009-2.445-0.048-3.298 c-0.039-0.852-0.174-1.433-0.372-1.942c-0.204-0.526-0.478-0.972-0.923-1.417c-0.445-0.445-0.891-0.718-1.417-0.923 c-0.509-0.198-1.09-0.333-1.942-0.372C14.445,4.014,14.173,4.005,12,4.005L12,4.005z"></path><path d="M12,7.897c-2.269,0-4.108,1.839-4.108,4.108S9.731,16.113,12,16.113s4.108-1.839,4.108-4.108S14.269,7.897,12,7.897z  M12,14.672c-1.473,0-2.667-1.194-2.667-2.667S10.527,9.339,12,9.339s2.667,1.194,2.667,2.667S13.473,14.672,12,14.672z"></path><circle cx="16.27" cy="7.735" r="0.96"></circle></svg></span>
-                                                <span><font size="3">Instagram</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="https://www.pinterest.com">
-                                                <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3c-4.97 0-9 4.03-9 9 0 3.813 2.372 7.072 5.72 8.384-.08-.712-.15-1.807.03-2.585.164-.703 1.056-4.475 1.056-4.475s-.27-.54-.27-1.336c0-1.252.726-2.187 1.63-2.187.768 0 1.14.577 1.14 1.268 0 .773-.493 1.928-.746 2.998-.212.896.45 1.626 1.333 1.626 1.6 0 2.83-1.687 2.83-4.12 0-2.156-1.55-3.663-3.76-3.663-2.56 0-4.064 1.922-4.064 3.907 0 .773.297 1.603.67 2.054.073.09.083.168.06.26-.067.283-.22.895-.25 1.02-.038.165-.13.2-.3.12-1.124-.523-1.827-2.167-1.827-3.487 0-2.84 2.063-5.446 5.947-5.446 3.122 0 5.548 2.225 5.548 5.198 0 3.102-1.956 5.598-4.67 5.598-.912 0-1.77-.474-2.063-1.033l-.56 2.14c-.204.78-.753 1.76-1.12 2.358.842.26 1.737.402 2.665.402 4.97 0 9-4.03 9-9s-4.03-9-9-9"></path></svg></span>
-                                                <span><font size="3">Pinterest</font></span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="https://www.twitter.com">
-                                                <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.3,8.559V9.007a9.666,9.666,0,0,1-9.729,9.737,9.614,9.614,0,0,1-5.256-1.394,5.367,5.367,0,0,0,.814.057,6.906,6.906,0,0,0,4.245-1.621,3.412,3.412,0,0,1-3.186-2.379,3.339,3.339,0,0,0,1.548-.058A3.419,3.419,0,0,1,3.988,9.993V9.952a3.427,3.427,0,0,0,1.548.424A3.407,3.407,0,0,1,4,7.54a3.261,3.261,0,0,1,.465-1.662A9.729,9.729,0,0,0,11.517,9.39a3.588,3.588,0,0,1-.073-0.79,3.408,3.408,0,0,1,3.414-3.414,3.542,3.542,0,0,1,2.518,1.075,6.837,6.837,0,0,0,2.159-.831,3.391,3.391,0,0,1-1.507,1.9A6.657,6.657,0,0,0,20,6.782,6.927,6.927,0,0,1,18.3,8.559Z"></path></svg></span>
-                                                <span><font size="3">Twitter</font></span>
-                                            </a>
-                                        </li>
-                            </ul>
-                        </div>
+                <div class="mb-xs-6 col-xs-6 col-offset-sm-1 col-sm-4 col-lg-3">
+                    <h3 class="h5 strong mb-xs-2 text-left">
+                        <font size="4"> Navigation </font>
+                    </h3>
+                    <ul class="list-unstyled text-left pl-xs-1 pl-sm-0" style=" text-align: justify;text-justify: inter-word;">
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/">
+
+                                <span><font size="3">Home</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/about/">
+
+                                <span><font size="3">About Us</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/contact/">
+
+                                <span><font size="3">Contact Us</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/errorpage/">
+
+                                <span><font size="3">Blog</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/faq/">
+
+                                <span><font size="3">FAQs</font></span>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
                 </div>
+                <div class="mb-xs-6 col-xs-6 col-sm-4 col-lg-3">
+                    <h3 class="h5 strong mb-xs-2 text-left">
+                        <span><font size="4">Categories</font></span>
+                    </h3>
+                    <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/bangles/">
+
+                                <span><font size="3">Women</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/wcd/">
+
+                                <span><font size="3">Clothing & shoes</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/frame/">
+
+                                <span><font size="3">Home & living</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/vases/">
+
+                                <span><font size="3">Handicraft</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/kitchen/">
+
+                                <span><font size="3">Toys & Entertainment</font></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb-xs-6  col-xs-6 col-sm-3 col-lg-3">
+                    <h3 class="h5 strong mb-xs-2 text-left">
+                        <font size="4"> Popular</font>
+                    </h3>
+                    <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/trays/">
+
+                                <span><font size="3">Ash Trays</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/kitchen/">
+
+                                <span><font size="3">Wooden Toys</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/game/">
+
+                                <span><font size="3">Chess Board</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/coin/">
+
+                                <span><font size="3">Coin Box</font></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="mb-xs-6 col-xs-6 col-lg-2">
+                    <h3 class="h5 strong mb-xs-2 text-left">
+                        <font size="4">Follow Zodhpur </font>
+                    </h3>
+                    <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="https://www.facebook.com/zodhpurcom-137524157046877/?modal=admin_todo_tour">
+                                <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20,5V19a1.007,1.007,0,0,1-1,1H15V13.776h2l0.336-2.3H15V9.659a0.912,0.912,0,0,1,1-1.031h1.5V6.55a11.284,11.284,0,0,0-1.641-.109c-2.2,0-3.3,1.219-3.3,3.039v1.992h-2v2.3h2V20H5a1.007,1.007,0,0,1-1-1V5A1.007,1.007,0,0,1,5,4H19A1.007,1.007,0,0,1,20,5Z"></path></svg></span>
+                                <span><font size="3">Facebook</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="https://www.instagram.com/zodhpur.co.in/">
+                                <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,5.447c2.136,0,2.389,0.008,3.233,0.047c0.78,0.036,1.204,0.166,1.485,0.275c0.373,0.145,0.64,0.318,0.92,0.598 c0.28,0.28,0.453,0.546,0.598,0.92c0.11,0.282,0.24,0.706,0.275,1.485c0.038,0.844,0.047,1.097,0.047,3.233 s-0.008,2.389-0.047,3.233c-0.036,0.78-0.166,1.204-0.275,1.485c-0.145,0.373-0.318,0.64-0.598,0.92 c-0.28,0.28-0.546,0.453-0.92,0.598c-0.282,0.11-0.706,0.24-1.485,0.275c-0.843,0.038-1.096,0.047-3.233,0.047 s-2.389-0.008-3.233-0.047c-0.78-0.036-1.204-0.166-1.485-0.275c-0.373-0.145-0.64-0.318-0.92-0.598 c-0.28-0.28-0.453-0.546-0.598-0.92c-0.11-0.282-0.24-0.706-0.275-1.485c-0.038-0.844-0.047-1.097-0.047-3.233 S5.45,9.616,5.488,8.773c0.036-0.78,0.166-1.204,0.275-1.485c0.145-0.373,0.318-0.64,0.598-0.92c0.28-0.28,0.546-0.453,0.92-0.598 c0.282-0.11,0.706-0.24,1.485-0.275C9.611,5.455,9.864,5.447,12,5.447 M12,4.005c-2.173,0-2.445,0.009-3.298,0.048 C7.85,4.092,7.269,4.227,6.76,4.425C6.234,4.63,5.787,4.903,5.343,5.348C4.898,5.793,4.624,6.239,4.42,6.765 c-0.198,0.509-0.333,1.09-0.372,1.942C4.009,9.56,4,9.833,4,12.005c0,2.173,0.009,2.445,0.048,3.298 c0.039,0.852,0.174,1.433,0.372,1.942c0.204,0.526,0.478,0.972,0.923,1.417c0.445,0.445,0.891,0.718,1.417,0.923 c0.509,0.198,1.09,0.333,1.942,0.372c0.853,0.039,1.126,0.048,3.298,0.048s2.445-0.009,3.298-0.048 c0.852-0.039,1.433-0.174,1.942-0.372c0.526-0.204,0.972-0.478,1.417-0.923c0.445-0.445,0.718-0.891,0.923-1.417 c0.198-0.509,0.333-1.09,0.372-1.942C19.991,14.45,20,14.178,20,12.005s-0.009-2.445-0.048-3.298 c-0.039-0.852-0.174-1.433-0.372-1.942c-0.204-0.526-0.478-0.972-0.923-1.417c-0.445-0.445-0.891-0.718-1.417-0.923 c-0.509-0.198-1.09-0.333-1.942-0.372C14.445,4.014,14.173,4.005,12,4.005L12,4.005z"></path><path d="M12,7.897c-2.269,0-4.108,1.839-4.108,4.108S9.731,16.113,12,16.113s4.108-1.839,4.108-4.108S14.269,7.897,12,7.897z  M12,14.672c-1.473,0-2.667-1.194-2.667-2.667S10.527,9.339,12,9.339s2.667,1.194,2.667,2.667S13.473,14.672,12,14.672z"></path><circle cx="16.27" cy="7.735" r="0.96"></circle></svg></span>
+                                <span><font size="3">Instagram</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="https://in.pinterest.com/?autologin=true">
+                                <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3c-4.97 0-9 4.03-9 9 0 3.813 2.372 7.072 5.72 8.384-.08-.712-.15-1.807.03-2.585.164-.703 1.056-4.475 1.056-4.475s-.27-.54-.27-1.336c0-1.252.726-2.187 1.63-2.187.768 0 1.14.577 1.14 1.268 0 .773-.493 1.928-.746 2.998-.212.896.45 1.626 1.333 1.626 1.6 0 2.83-1.687 2.83-4.12 0-2.156-1.55-3.663-3.76-3.663-2.56 0-4.064 1.922-4.064 3.907 0 .773.297 1.603.67 2.054.073.09.083.168.06.26-.067.283-.22.895-.25 1.02-.038.165-.13.2-.3.12-1.124-.523-1.827-2.167-1.827-3.487 0-2.84 2.063-5.446 5.947-5.446 3.122 0 5.548 2.225 5.548 5.198 0 3.102-1.956 5.598-4.67 5.598-.912 0-1.77-.474-2.063-1.033l-.56 2.14c-.204.78-.753 1.76-1.12 2.358.842.26 1.737.402 2.665.402 4.97 0 9-4.03 9-9s-4.03-9-9-9"></path></svg></span>
+                                <span><font size="3">Pinterest</font></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-gray-darker pt-xs-1 pb-xs-2
+                                                pb-md-1 display-block width-full" rel="nofollow" href="https://twitter.com/Zodhpur_Co_in">
+                                <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.3,8.559V9.007a9.666,9.666,0,0,1-9.729,9.737,9.614,9.614,0,0,1-5.256-1.394,5.367,5.367,0,0,0,.814.057,6.906,6.906,0,0,0,4.245-1.621,3.412,3.412,0,0,1-3.186-2.379,3.339,3.339,0,0,0,1.548-.058A3.419,3.419,0,0,1,3.988,9.993V9.952a3.427,3.427,0,0,0,1.548.424A3.407,3.407,0,0,1,4,7.54a3.261,3.261,0,0,1,.465-1.662A9.729,9.729,0,0,0,11.517,9.39a3.588,3.588,0,0,1-.073-0.79,3.408,3.408,0,0,1,3.414-3.414,3.542,3.542,0,0,1,2.518,1.075,6.837,6.837,0,0,0,2.159-.831,3.391,3.391,0,0,1-1.507,1.9A6.657,6.657,0,0,0,20,6.782,6.927,6.927,0,0,1,18.3,8.559Z"></path></svg></span>
+                                <span><font size="3">Twitter</font></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             <hr>
                 
                 <p style="margin-left:3%;"><font size="4"><b> © <a href="/"><b style="color:tomato; font-family:Arial Black;">Zod</b><b style="color:SlateBlue; font-family:Arial Black;">hpur</b><b style="color:black;"></a><font size="3"> All Rights Reserved.</font></b></b></font></p>

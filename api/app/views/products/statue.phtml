@@ -7,7 +7,7 @@
             <link rel="stylesheet" href="/css/collection_button.css" type="text/css">
             <link rel="stylesheet" href="/css/signout_listing.css" type="text/css">
             <link rel="stylesheet" href="/css/homepage.css" type="text/css">
-                
+                <script src="/js/currency.js" type="text/javascript" ></script>
                  
                  
     <script async="" src="/js/zodhpur_button.js"></script><script async="" src="/js/zodhpur_core.js"></script><script src="https://connect.facebook.net/signals/config/297472060462208?v=2.8.10&amp;r=stable" async=""></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KWW5SS"></script><script type="text/javascript">
@@ -125,20 +125,20 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
              <ul class="account-nav apply-nav-height" align="right">
                 
              <li>
-            <select Style=" margin-top:20%;border:2px; color:#E55400;">Currency
+            <select Style=" margin-top:20%;border:2px; color:#E55400;"  id="currency" value="desktop" onclick="myFunction()" >Currency
                 <div style="background-color:black;">
                     <option><p>Currency</p></option>
-                <option style="border:2px;">USD</option>
-                 <option style="border:2px;">INR</option>
-                  <option style="border:2px;">GBP</option>
-                   <option style="border:2px;">EUR</option>
+                <option style="border:2px;" value="usd">USD</option>
+                 <option style="border:2px;" value="inr">INR</option>
+                  <option style="border:2px;" value="gbp">GBP</option>
+                   <option style="border:2px;" value="eur">EUR</option>
                 </div>
              </select>
                 </li> 
                               
                     <li class="register-link" align="center">
                         <a id="register" class="inline-overlay-trigger register-header-action select-register" rel="nofollow" data-downtime-overlay-type="register" href="/users/login/" title="Register" align="center">
-                            <a href="/users/signup/" align="center">Register</a>
+                            <a href="/products/signup/" align="center">Register</a>
                           
                         </a>
                         &nbsp;&nbsp;
@@ -146,13 +146,13 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
     
                     <li class="sign-in-link">
                         
-                            <a href="/users/login/"> Sign in </a>
+                            <a href="/products/login/"> Sign in </a>
                         
                     </li>
                 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="cart" data-sub-nav="cart" style="margin-top:3%;">
-                    <a rel="nofollow" href="cart1.html" class="nav-link" title="Cart" aria-labelledby="gnav-account-cart-description">
+                    <a rel="nofollow" href="http://wwww.amazon.com" class="nav-link" title="Cart" aria-labelledby="gnav-account-cart-description">
                           <span class="inline-svg nav-icon etsy-icon-cart" style="width:20%;"><svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  aria-hidden="true" focusable="false">
                      <path style="width:20%;"d="M10.1530072,20.7117446 C10.1530072,21.3419507 9.92921578,21.8808404 9.48162624,22.32843 C9.0340367,22.7760195 8.49514699,22.9998109 7.86494092,22.9998109 C7.23473485,22.9998109 6.69584513,22.7760195 6.24825559,22.32843 C5.80066606,21.8808404 5.57687465,21.3419507 5.57687465,20.7117446 C5.57687465,20.0743771 5.80066606,19.5319068 6.24825559,19.0843172 C6.69584513,18.6367277 7.23473485,18.4129363 7.86494092,18.4129363 C8.49514699,18.4129363 9.0340367,18.6367277 9.48162624,19.0843172 C9.92921578,19.5319068 10.1530072,20.0743771 10.1530072,20.7117446 Z M19.7779245,20.7117446 C19.7779245,21.3419507 19.554133,21.8808404 19.1065435,22.32843 C18.658954,22.7760195 18.1200643,22.9998109 17.4898582,22.9998109 C16.8596521,22.9998109 16.3207624,22.7760195 15.8731729,22.32843 C15.4255833,21.8808404 15.2017919,21.3419507 15.2017919,20.7117446 C15.2017919,20.0743771 15.4255833,19.5319068 15.8731729,19.0843172 C16.3207624,18.6367277 16.8596521,18.4129363 17.4898582,18.4129363 C18.1200643,18.4129363 18.658954,18.6367277 19.1065435,19.0843172 C19.554133,19.5319068 19.7779245,20.0743771 19.7779245,20.7117446 Z M7.40303083,17.0379481 C7.08076636,17.0379481 6.79252302,16.9358992 6.53829216,16.7317984 C6.28406131,16.5276975 6.12472182,16.2645188 6.06026893,15.9422544 L3.53587656,3.74997636 L2.36498819,3.74997636 C1.98543226,3.74997636 1.6613823,3.61570152 1.39282858,3.34714779 C1.12427486,3.07859407 0.99000001,2.75454411 0.99000001,2.37498818 C0.99000001,1.99543225 1.12427486,1.67138229 1.39282858,1.40282857 C1.6613823,1.13427485 1.98543226,1 2.36498819,1 L4.65305446,1 C4.98248036,1 5.27251403,1.10383921 5.52316417,1.31152076 C5.77381431,1.5192023 5.93494413,1.78059067 6.00655845,2.09569371 L6.91963654,6.49995273 L21.6148227,6.49995273 C22.0803159,6.49995273 22.4527048,6.68972784 22.7320006,7.06928377 C22.9969736,7.4488397 23.0578449,7.86419656 22.9146163,8.31536681 L20.62655,15.1903077 C20.5406128,15.4481193 20.3884346,15.662959 20.1700109,15.8348334 C19.9515872,16.0067078 19.7027312,16.1033857 19.4234353,16.12487 L7.51045178,17.0379481 L7.40303083,17.0379481 Z"></path>
     </svg></span>
@@ -568,7 +568,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                         </a>
                     </li>
                     <li data-node-id="10907" class="col-xs-12 pl-xs-0" role="presentation">
-                        <a id="catnav-l3-10907" class="display-block pb-xs-1 text-gray text-body-larger pt-xs-1  " href="bangles.html" role="menuitem" tabindex="-1">
+                        <a id="catnav-l3-10907" class="display-block pb-xs-1 text-gray text-body-larger pt-xs-1  " href="/products/bangles/" role="menuitem" tabindex="-1">
                             Bangles
                         </a>
                     </li>
@@ -704,7 +704,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                         </p>
                             <ul class="list-unstyled" role="presentation">
                                     <li data-node-id="10926" role="presentation">
-                                        <a id="catnav-l4-10926" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="wcd.html" role="menuitem" tabindex="-1">
+                                        <a id="catnav-l4-10926" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="/products/wcd/" role="menuitem" tabindex="-1">
                                             Dresses
                                         </a>
                                     </li>
@@ -989,7 +989,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                         </p>
                             <ul class="list-unstyled" role="presentation">
                                     <li data-node-id="10962" role="presentation">
-                                        <a id="catnav-l4-10962" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="walldecor.html" role="menuitem" tabindex="-1">
+                                        <a id="catnav-l4-10962" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="/products/walldecor/" role="menuitem" tabindex="-1">
                                             Wall Décor
                                         </a>
                                     </li>
@@ -999,27 +999,27 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                                         </a>
                                     </li>
                                     <li data-node-id="10964" role="presentation">
-                                        <a id="catnav-l4-10964" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="frame.html" role="menuitem" tabindex="-1">
+                                        <a id="catnav-l4-10964" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="/products/frame/" role="menuitem" tabindex="-1">
                                             Picture Frames &amp; Displays
                                         </a>
                                     </li>
                                     <li data-node-id="10965" role="presentation">
-                                        <a id="catnav-l4-10965" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="candlestand.html" role="menuitem" tabindex="-1">
+                                        <a id="catnav-l4-10965" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="/products/candlestand/" role="menuitem" tabindex="-1">
                                             Candles &amp; Holders
                                         </a>
                                     </li>
                                     <li data-node-id="10966" role="presentation">
-                                        <a id="catnav-l4-10966" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="clock.html" role="menuitem" tabindex="-1">
+                                        <a id="catnav-l4-10966" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="/products/clock/" role="menuitem" tabindex="-1">
                                             Clocks
                                         </a>
                                     </li>
                                     <li data-node-id="10967" role="presentation">
-                                        <a id="catnav-l4-10967" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="vases.html" role="menuitem" tabindex="-1">
+                                        <a id="catnav-l4-10967" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="/products/vases/" role="menuitem" tabindex="-1">
                                             Vases
                                         </a>
                                     </li>
                                     <li data-node-id="10968" role="presentation">
-                                        <a id="catnav-l4-10968" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="door1.html" role="menuitem" tabindex="-1">
+                                        <a id="catnav-l4-10968" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="/products/door1/" role="menuitem" tabindex="-1">
                                             Wreaths &amp; Door Hangers
                                         </a>
                                     </li>
@@ -1042,7 +1042,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                         </a>
                     </li>
                     <li data-node-id="10975" class="col-xs-12 pl-xs-0" role="presentation">
-                        <a id="catnav-l3-10975" class="display-block pb-xs-1 text-gray text-body-larger pt-xs-1 " href="penholder.html" role="menuitem" tabindex="-1">
+                        <a id="catnav-l3-10975" class="display-block pb-xs-1 text-gray text-body-larger pt-xs-1 " href="/products/penholder/" role="menuitem" tabindex="-1">
                             Office
                         </a>
                     </li>
@@ -1218,7 +1218,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                                         </a>
                                     </li>
                                     <li data-node-id="11054" role="presentation">
-                                        <a id="catnav-l4-11054" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="game.html" role="menuitem" tabindex="-1">
+                                        <a id="catnav-l4-11054" class="text-gray-lighter text-body display-block pt-xs-1 pb-xs-1 pl-xs-2" href="/products/game/" role="menuitem" tabindex="-1">
                                             Games &amp; Puzzles
                                         </a>
                                     </li>
@@ -1523,7 +1523,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
     <div class="pb-xs-3 pl-xs-0 mb-xs-3 pr-xs-0" aria-hidden="true">
             <ul class="list-unstyled display-inline-block col-xs-6  pl-xs-0" role="presentation">
                     <li data-node-id="7091" class="col-xs-12 pl-xs-0" role="presentation">
-                        <a id="catnav-l3-7091" class="display-block pb-xs-1 text-gray text-body-larger pt-xs-1  " href="w1.html" role="menuitem" tabindex="-1">
+                        <a id="catnav-l3-7091" class="display-block pb-xs-1 text-gray text-body-larger pt-xs-1  " href="" role="menuitem" tabindex="-1">
                             Woodworking &amp; Carpentry
                         </a>
                     </li>
@@ -1916,7 +1916,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                       
                       <div class="price-box">
                         <p class="special-price">
-                            <span id="price-preview" class="price"><span class=money><center><font size="3">$24.49</font></span></center></span>
+                            <span id="price-preview" class="price"><span><center><font size="3"><div class="money">$24.49</div></font></span></center></span>
                         </p>
                         
                       </div>
@@ -1951,12 +1951,12 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                                   <center>
                                 <div class="add-to-cart" >
                                   <button name="add" style="background-color:#4584BA;" type="button" onclick="" title="Add to Cart" class="button btn-cart">
-                                      <a href="cart1.html" style="color:white;"> <span><span>Add to Cart</span></span></a>
+                                      <a href="http://wwww.amazon.com" style="color:white;"> <span><span>Add to Cart</span></span></a>
                                   </button>
                                 </div>
                                       <div class="add-to-cart" >
                                   <button name="add" style="background-color:#F55479;" type="button" onclick="" title="Add to Cart" class="button btn-cart">
-                                      <a href="login.html" style="color:white;"> <span><span>Buy Now</span></span></a>
+                                      <a href="http://wwww.amazon.com" style="color:white;"> <span><span>Buy Now</span></span></a>
                                   </button>
                                 </div>
                                   </center>
@@ -2036,35 +2036,35 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                             <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
                                         <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="index.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/">
                                                 
                                                 <span><font size="3">Home</font></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="about.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/about/">
                                                 
                                                 <span><font size="3">About Us</font></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="contact.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/contact/">
                                                 
                                                 <span><font size="3">Contact Us</font></span>
                                             </a>
                                         </li>
                                 <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="blog.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/errorpage/">
                                                 
                                                 <span><font size="3">Blog</font></span>
                                             </a>
                                         </li>
                                 <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="faq.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/index/faq/">
                                                 
                                                 <span><font size="3">FAQs</font></span>
                                             </a>
@@ -2099,7 +2099,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                                         </li>
                                 <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="wcd.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/wcd/">
                                                 
                                                 <span><font size="3">Home & living</font></span>
                                             </a>
@@ -2134,28 +2134,28 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                             <ul class="list-unstyled text-left pl-xs-1 pl-sm-0">
                                         <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="trays.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/trays/">
                                                 
                                                 <span><font size="3">Ash Trays</font></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="kitchen.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/kitchen/">
                                                 
                                                 <span><font size="3">Wooden Toys</font></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="game.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/game/">
                                                 
                                                 <span><font size="3">Chess Board</font></span>
                                             </a>
                                         </li>
                                         <li>
                                             <a class="text-gray-darker pt-xs-1 pb-xs-2
-                                                pb-md-1 display-block width-full" rel="nofollow" href="coin.html">
+                                                pb-md-1 display-block width-full" rel="nofollow" href="/products/coin/">
                                                 
                                                 <span><font size="3">Coin Box</font></span>
                                             </a>
@@ -2201,7 +2201,7 @@ w.onerror=function(msg,url,line,col,exception){if (Etsy.errorQueue) Etsy.errorQu
                 </div>
             <hr>
                 
-                <p align="left"><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; © <a href="index.html"><b style="color:tomato; font-family:Arial Black;">Zod</b><b style="color:SlateBlue; font-family:Arial Black;">hpur</b><b style="color:black;"></a><font size="3"> All Rights Reserved.</font></b></b></font></p>                
+                <p align="left"><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; © <a href="/"><b style="color:tomato; font-family:Arial Black;">Zod</b><b style="color:SlateBlue; font-family:Arial Black;">hpur</b><b style="color:black;"></a><font size="3"> All Rights Reserved.</font></b></b></font></p>
     </footer>
 </body>
 </html>

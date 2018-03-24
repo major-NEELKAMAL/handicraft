@@ -19,6 +19,9 @@ class IndexController extends ControllerBase
     public function errorpageAction(){
 
     }
+    public function blogAction(){
+
+    }
 
     public function faqAction(){}
 

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/api/app/views/products/kitchen.phtml" mnemonic="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="680f8c6d-0a95-4ba8-98bb-60d50a3acb76" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="bangles.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/app/views/products/bangles.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="2754" column="62" lean-forward="false" selection-start-line="2754" selection-start-column="62" selection-end-line="2754" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/app/views/index/about.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="3967" column="43" lean-forward="false" selection-start-line="3967" selection-start-column="43" selection-end-line="3967" selection-end-column="43" />
+              <folding>
+                <marker date="1519292205098" expanded="true" signature="8411:8558" ph="..." />
+                <marker date="1519292205098" expanded="true" signature="8596:8739" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.jpg</find>
+      <find>FIRST_NAME</find>
+      <find>user</find>
+      <find>first_name</find>
+      <find>kitchen</find>
+      <find>img</find>
+      <find>about</find>
+      <find>/products/</find>
+      <find>users/</find>
+      <find>coin/</find>
+      <find>w3-hide</find>
+      <find>css</find>
+      <find>/css/</find>
+      <find>/js/</find>
+      <find>currency</find>
+      <find>www.a</find>
+      <find>cart</find>
+      <find>&quot;/</find>
+      <find>prod</find>
+      <find>produc</find>
+      <find>product</find>
+      <find>products/</find>
+      <find>/products</find>
+      <find>/prodc</find>
+      <find>zod</find>
+      <find>csss/</find>
+      <find>.html</find>
+      <find>img/</find>
+      <find>css/</find>
+      <find>js/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>index.phtml</replace>
+      <replace>../../images/</replace>
+      <replace>img/</replace>
+      <replace>/img/</replace>
+      <replace>css/</replace>
+      <replace>&quot;/products/</replace>
+      <replace>/products</replace>
+      <replace>/css/</replace>
+      <replace>/js/</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/library/Bootstrap/AbstractBootstrap.php" />
+        <option value="$PROJECT_DIR$/api/library/Bootstrap/Main.php" />
+        <option value="$PROJECT_DIR$/api/app/config/config.php" />
+        <option value="$PROJECT_DIR$/public_html/index.php" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/api/app/views/index/signup.html" />
+        <option value="$PROJECT_DIR$/api/app/views/users/signup.html" />
+        <option value="$PROJECT_DIR$/public/signup.html" />
+        <option value="$PROJECT_DIR$/api/app/public/index.php" />
+        <option value="$PROJECT_DIR$/api/app/views/users/register.phtml.html" />
+        <option value="$PROJECT_DIR$/api/app/views/users/index.phtml" />
+        <option value="$PROJECT_DIR$/api/app/models/UsersModel.php" />
+        <option value="$PROJECT_DIR$/api/app/controllers/CartController.php" />
+        <option value="$PROJECT_DIR$/api/app/views/cart/cart.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/users/signup.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/users/login.phtml" />
+        <option value="$PROJECT_DIR$/api/app/models/Users.php" />
+        <option value="$PROJECT_DIR$/api/app/views/error/show404.html" />
+        <option value="$PROJECT_DIR$/api/app/views/error/show404.phtml" />
+        <option value="$PROJECT_DIR$/api/app/controllers/ErrorController.php" />
+        <option value="$PROJECT_DIR$/api/app/controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/api/app/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/api/app/views/index/errorpage.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/index/contact.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/index/about.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/trays.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/coin.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/index/index.phtml" />
+        <option value="$PROJECT_DIR$/api/app/controllers/ProductsController.php" />
+        <option value="$PROJECT_DIR$/api/app/views/products/door1.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/candlestand.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/bangles.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/game.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/kitchen.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/frame.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/earrings.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/paper.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/peacock.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/penholder.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/statue.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/vases.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/walldecor.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/wcd.phtml" />
+        <option value="$PROJECT_DIR$/api/app/views/products/wooden.phtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1297" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="products" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="handicraft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handicraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/api/app/views/users" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/app/views/shipping" />
+      <recent name="$PROJECT_DIR$/api/app/views/cart" />
+      <recent name="$PROJECT_DIR$/api/app/views/users" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="680f8c6d-0a95-4ba8-98bb-60d50a3acb76" name="Default" comment="" />
+      <created>1518588628162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518588628162</updated>
+      <workItem from="1518588630690" duration="17399000" />
+      <workItem from="1518612992978" duration="122000" />
+      <workItem from="1518673587507" duration="17445000" />
+      <workItem from="1518760652068" duration="13711000" />
+      <workItem from="1518850322826" duration="9735000" />
+      <workItem from="1519022054755" duration="3347000" />
+      <workItem from="1519031642316" duration="2130000" />
+      <workItem from="1519124720908" duration="996000" />
+      <workItem from="1519192843483" duration="13887000" />
+      <workItem from="1519278937016" duration="22704000" />
+      <workItem from="1519365140978" duration="691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="102167000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1297" height="780" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2023166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/app/views/index/login.html" />
+    <entry file="file://$PROJECT_DIR$/api/app/views/index/wooden.html" />
+    <entry file="file://$PROJECT_DIR$/api/app/views/users/signup.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="85" column="114" lean-forward="false" selection-start-line="85" selection-start-column="114" selection-end-line="85" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/public/index.php" />
+    <entry file="file://$PROJECT_DIR$/api/app/views/users/register.phtml" />
+    <entry file="file://$PROJECT_DIR$/public/index.phtml" />
+    <entry file="file://$PROJECT_DIR$/public/signup.html" />
+    <entry file="file://$PROJECT_DIR$/public/users/signup.html" />
+    <entry file="file://$PROJECT_DIR$/api/app/models/Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/config/config.php" />
+    <entry file="file://$PROJECT_DIR$/api/app/library/Bootstrap/AbstractBootstrap.php" />
+    <entry file="file://$PROJECT_DIR$/api/app/library/Bootstrap/Cli.php" />
+    <entry file="file://$PROJECT_DIR$/api/app/library/Bootstrap/Main.php" />
+    <entry file="file://$PROJECT_DIR$/api/app/models/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc" />
+    <entry file="file://$PROJECT_DIR$/api/app/controllers/ShippingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/models/Shipping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/shipping/shipping.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/cart/cart.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90738">
+          <caret line="5041" column="42" lean-forward="false" selection-start-line="5041" selection-start-column="42" selection-end-line="5041" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/models/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/error/show404.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/users/login.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7290">
+          <caret line="405" column="41" lean-forward="false" selection-start-line="405" selection-start-column="31" selection-end-line="405" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/controllers/ErrorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/index/errorpage.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="55" column="58" lean-forward="false" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/index/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/index/contact.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/users/signup.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="5426" column="5" lean-forward="false" selection-start-line="5426" selection-start-column="5" selection-end-line="5426" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="2026" column="52" lean-forward="false" selection-start-line="2026" selection-start-column="52" selection-end-line="2026" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/game.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1016" column="154" lean-forward="false" selection-start-line="1016" selection-start-column="145" selection-end-line="1016" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/kitchen.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="65" column="60" lean-forward="false" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/frame.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1525" column="127" lean-forward="false" selection-start-line="1525" selection-start-column="127" selection-end-line="1525" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/door1.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="2040" column="108" lean-forward="false" selection-start-line="2040" selection-start-column="108" selection-end-line="2040" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/earrings.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1016" column="153" lean-forward="false" selection-start-line="1016" selection-start-column="144" selection-end-line="1016" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/candlestand.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="154" column="66" lean-forward="false" selection-start-line="154" selection-start-column="66" selection-end-line="154" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/controllers/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/coin.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="570" column="126" lean-forward="false" selection-start-line="570" selection-start-column="121" selection-end-line="570" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/paper.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6912">
+          <caret line="384" column="44" lean-forward="false" selection-start-line="384" selection-start-column="41" selection-end-line="384" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/peacock.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/penholder.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="60" lean-forward="false" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/statue.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34092">
+          <caret line="1894" column="40" lean-forward="false" selection-start-line="1894" selection-start-column="40" selection-end-line="1894" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/trays.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34128">
+          <caret line="1896" column="40" lean-forward="false" selection-start-line="1896" selection-start-column="40" selection-end-line="1896" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/vases.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34128">
+          <caret line="1896" column="40" lean-forward="false" selection-start-line="1896" selection-start-column="40" selection-end-line="1896" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/walldecor.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34110">
+          <caret line="1895" column="40" lean-forward="false" selection-start-line="1895" selection-start-column="40" selection-end-line="1895" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/wcd.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/wooden.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1896" column="74" lean-forward="false" selection-start-line="1896" selection-start-column="74" selection-end-line="1896" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/products/bangles.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="2754" column="62" lean-forward="false" selection-start-line="2754" selection-start-column="62" selection-end-line="2754" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/views/index/about.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="3967" column="43" lean-forward="false" selection-start-line="3967" selection-start-column="43" selection-end-line="3967" selection-end-column="43" />
+          <folding>
+            <marker date="1519292205098" expanded="true" signature="8411:8558" ph="..." />
+            <marker date="1519292205098" expanded="true" signature="8596:8739" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
